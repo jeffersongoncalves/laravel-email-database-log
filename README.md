@@ -9,7 +9,7 @@ A simple database logger for all outgoing emails sent by Laravel website.
 Laravel Email Database Log can be installed via [composer](http://getcomposer.org) by running this line in terminal:
 
 ```bash
-composer require shvetsgroup/laravel-email-database-log
+composer require jeffersonsimaogoncalves/laravel-email-database-log
 ```
 
 ## Step 2: Configuration
@@ -19,7 +19,7 @@ You can skip this step if your version of Laravel is 5.5 or above. Otherwise, yo
 ```php
 'providers' => [
     // ...
-    ShvetsGroup\LaravelEmailDatabaseLog\LaravelEmailDatabaseLogServiceProvider::class,
+    JeffersonSimaoGoncalves\LaravelEmailDatabaseLog\LaravelEmailDatabaseLogServiceProvider::class,
 ],
 ```
 
