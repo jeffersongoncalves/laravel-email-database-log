@@ -1,9 +1,13 @@
 {
-    "name": "shvetsgroup/laravel-email-database-log",
+    "name": "jeffersonsimaogoncalves/laravel-email-database-log",
     "description": "A simple database logger for all outgoing emails sent by Laravel website.",
     "keywords": ["laravel", "markdown", "mail"],
     "license": "MIT",
     "authors": [
+        {
+            "name": "Jefferson Simão Gonçalves",
+            "email": "gerson.simao.92@gmail.com"
+        },
         {
             "name": "Alexander Shvets",
             "email": "neochief@shvetsgroup.com"
@@ -26,12 +30,12 @@
     },
     "autoload": {
         "psr-0": {
-            "ShvetsGroup\\LaravelEmailDatabaseLog\\": "src/"
+            "JeffersonSimaoGoncalves\\LaravelEmailDatabaseLog\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ShvetsGroup\\LaravelEmailDatabaseLog\\Tests\\": "tests"
+            "JeffersonSimaoGoncalves\\LaravelEmailDatabaseLog\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ShvetsGroup\\LaravelEmailDatabaseLog\\LaravelEmailDatabaseLogServiceProvider"
+                "JeffersonSimaoGoncalves\\LaravelEmailDatabaseLog\\LaravelEmailDatabaseLogServiceProvider"
             ]
         }
     }
